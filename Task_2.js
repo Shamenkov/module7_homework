@@ -5,8 +5,8 @@ const someObject = {
     position: 'developer',
     language: 'JS'
   };
-  let someStr = 'I like JS'
-  function showЗroperty(obj, str){
-    console.log('language' in obj)
+  let someStr = 'language'
+  function showProperty(obj, str){
+    console.log(someStr in obj)
   }
   showЗroperty(someObject)
